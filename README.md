@@ -1,1 +1,1 @@
-# tinyone-Full
+https://samithpantho.github.io/tinyone-Full/.
