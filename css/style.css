@@ -1,0 +1,258 @@
+/*header start*/
+.header{
+	background-color: #fcdb00;
+	padding: 5% 15%;
+}
+.logo{
+	width: 50%;
+	float: left;
+}
+.menu{
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-size: 22px;
+	font-weight: bold;
+	font-family: arial;
+	color: #010101;
+	text-decoration: none;
+	padding: 0 30px;
+	display: block;
+}
+
+.menu ul li a:hover{
+	font-size: 25px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-color: #fcdb00;
+	padding: 0 15%;
+	height: 550px;
+}
+.wrapper{
+	overflow: hidden;
+}
+.blog{
+	width: 45%;
+	float: left;
+	margin-bottom: 30px;
+}
+.contain{
+	
+}
+.contain h1{
+	margin-top: 10%;
+	font-size: 32px;
+	color: #010101;
+	font-family: arial;
+}
+.contain span{
+	margin-bottom: 12%;
+	font-size: 20px;
+	color: #313841;
+}
+.contain p{
+	margin-bottom: 10%;
+	font-size: 17px;
+	color: #8d8144;
+}
+.link a{
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+.link a i{
+	margin-right: 15px;
+	font-size: 250%;
+	color: black;
+}
+.photo{
+	width:40%;
+	float:right;
+	padding-left: 10%;
+}
+/*banner end*/
+/*feature start*/
+.feature{
+
+}
+.featuretitle{
+	text-align: center;
+	padding: 5% 15%;
+}
+.featuretitle h1{
+	font-family:Arial;
+	font-weight: bold;
+	font-size: 35px;
+}
+.featuretitle p{
+	font-family: arial;
+	color: #313841;
+	font-size: 20px;
+}
+
+.featureinfo{
+	padding: 0 10%;
+	overflow: hidden;
+	margin-bottom: 8%;
+}
+.single{
+	width: 33%;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.singlelogo{
+	margin-top: 20px;
+	width: 20%;
+	float: left;
+}
+.singlecontent{
+	width: 75%;
+	float: right;
+	margin: 0;
+}
+.singlecontent h1{
+	font-family: arial;
+	font-size: 22px;
+	color: #010101;
+}
+
+.singlecontent p{
+	font-family: PT Sans regular;
+	color: #ababab;
+	font-size: 19px;
+}
+/*feature end*/
+/*footer start*/
+.footer{
+	background-color: #010101;
+	padding: 5% 15%;
+}
+.footertitle{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.footertitle h1{
+	color: #fcdb00;
+	font-family: arial;
+	font-size: 30px;
+}
+.footertitle p{
+	font-family: arial;
+	color: #898989;
+	font-size: 20px;
+}
+.footeremail{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.footeremail input{
+	width: 75%;
+	height: 40px;
+	border: 1px solid #ffffff;
+    border-color: #ffffff;
+    border-radius: 5px;
+    background: white;
+    font-size: 18px;
+}
+
+.footeremail button{
+	width: 13%;
+	height: 45px;
+	border: 1px solid #fcdb00;
+    border-color: #fcdb00;
+    border-radius: 5px;
+    background: #fcdb00;
+    color: black;
+	text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    cursor:pointer;
+}
+
+.footeremail button:hover{
+	font-size: 20px;
+	width: 13.5%;
+	height: 50px;
+}
+.footerlink{
+	text-align: center;
+	margin-top: 80px;
+	overflow: hidden;
+}
+
+.footerlink ul{
+	margin-left: 200px;
+}
+.footerlink ul li{
+	list-style: none;
+	float: left;
+	margin-left: 50px;
+}
+.footerlink ul li a{
+	width: 40px;
+	height: 40px;
+	background: #fcdb00;
+	font-weight: bold;
+	font-size: 35px;
+	color: black;
+	text-decoration: none;
+	display: block;
+	border: 1px solid #fcdb00;
+    border-color: #fcdb00;
+    border-radius: 5px;
+}
+
+.footerlink ul li a:hover{
+	background: black;
+	border: 1px solid #fcdb00;
+    border-color: #fcdb00;
+    color: #fcdb00;
+}
+
+.contactlink{
+	margin-top: 150px;
+	overflow: hidden;
+}
+.contact{
+	width: 30%;
+	float: left;
+
+}
+.contact p{
+	color: white;
+	font-size: 17px;
+	font-family: arial;
+}
+.contact a{
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	font-family: arial;
+
+}
+.links{
+	width: 17.5%;
+	float: left;
+}
+.links ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: arial;
+	font-size: 17px;
+}
+
+.links ul li a:hover,.contact a:hover{
+	color: #fcdb00;
+}	
+/*footer end*/
